@@ -1,0 +1,27 @@
+.buttons{
+    flex: 1;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    padding: 2rem 1rem;
+}
+
+.buttons>button{
+    height: 80px;
+    font-size: 2rem;
+    border: 0px;
+    color: white;
+}
+
+.equals{
+    background-color: blue;
+    grid-column-end: span 3;
+}
+
+.num{
+    background-color: black;
+}
+
+.func{
+    background-color: rgb(41, 40, 40);
+}
