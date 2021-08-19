@@ -3,14 +3,16 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 5px;
-    padding: 2rem 1rem;
+    padding: 1rem;
 }
 
 .buttons>button{
+    flex-shrink: 0;
     height: 80px;
     font-size: 2rem;
     border: 0px;
     color: white;
+    padding: 20px 10px;
 }
 
 .equals{
