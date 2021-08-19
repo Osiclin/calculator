@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 5px;
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 .buttons>button{
